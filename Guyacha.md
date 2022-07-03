@@ -211,3 +211,54 @@ These people got all cards, congrats!
 ## Roll Rate
 
 ![roll-rate](images/roll-rate.png)
+
+# More Stats
+
+## Bots
+
+![ethically-dubious](images/ethically-dubious.png)
+
+This year, several users botted their way into ill-gotten gains.
+
+While we didn't have any mechanisms to detect or deter this, we have roll data which we can apply some heuristics to in order to identify botters. One approximation is to plot a given user's roll and its timestamp and look for certain patterns. For example, strong linearity means that a given user probably botted their rolls. We could also take the second derivative to determine the deviation between roll times: a small range in deviation means they probably botted. However, it's not perfect because we have limited data.
+
+As a benchmark, here's the roll time data for yours truly.
+
+![funky-roll-times](images/funky-roll-times.png)
+
+### Other Mods
+
+Here's the same data for some of our mods that claimed they did not bot.
+
+![appu-roll-times](images/appu-roll-times.png)
+
+![ion-roll-times](images/ion-roll-times.png)
+
+![noddy](images/noddy-roll-times.png)
+
+(The last one is a _bit_ suspect though)
+
+### Known Botter
+
+Here's the data for a known botter (they posted their script in the server).
+
+![random-botter-roll-times](images/random-botter-roll-times.png)
+
+### 1st Most Rolls
+
+![top-1-roll-times](images/top-1-roll-times.png)
+
+### 2nd Most Rolls
+
+![top-2-roll-times](images/top-2-roll-times.png)
+### 3rd Most Rolls
+
+![top-3-roll-times](images/top-3-roll-times.png)
+
+### 4th Most Rolls
+
+![top-4-roll-times](images/top-4-roll-times.png)
+
+### 5th Most Rolls
+
+![top-5-roll-times](images/top-5-roll-times.png)
